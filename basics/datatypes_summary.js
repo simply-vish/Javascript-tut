@@ -34,3 +34,31 @@ const myFunction = function(){          //function
 console.log(typeof heros);
 console.log(typeof bigNumber);
 
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "vishii.com"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(anothername);
+console.log(myYoutubename);
+
+
+let user = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = user
+
+userTwo.email = "vishii@gmail.com"
+
+console.log(user.email);
+console.log(userTwo.email);
+
+
